@@ -1,0 +1,19 @@
+{
+  "name": "D10G3N Music",
+  "short_name": "D10G3N",
+  "description": "Official music streaming platform made by D10G3N",
+  "version": "1.0.202602151336",
+  "start_url": "/?v=1.0.202602151336",
+  "display": "standalone",
+  "background_color": "#0f0f1e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/placeholder.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

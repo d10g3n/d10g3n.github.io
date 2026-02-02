@@ -1,0 +1,8 @@
+include:
+  - .well-known
+
+defaults:
+  - scope:
+      path: ".well-known/apple-app-site-association"
+    values:
+      content-type: "application/json"

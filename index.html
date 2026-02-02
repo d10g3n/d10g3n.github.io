@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="description" content="D10G3N Live - Official music streaming platform made by D10G3N. Independent music, no algorithms, no trends, just sound and emotions.">
+    <meta name="keywords" content="D10G3N, music, tracks, albums, streaming, independent music, beats, emotions">
+    <meta property="og:title" content="D10G3N Music">
+    <meta property="og:description" content="Official music streaming platform made by D10G3N">
+    <meta property="og:type" content="website">
+    <title>D10G3N Live - Music streaming</title>
+    <link rel="stylesheet" href="styles/main.css?v=1.0.202602151336">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <!-- Use SVG placeholder as primary favicon (scales cleanly); keep PNG fallbacks for older browsers -->
+    <link rel="icon" type="image/svg+xml" href="assets/placeholder.svg">
+    <!-- Safari mask-icon (monochrome) -->
+    <link rel="mask-icon" href="assets/placeholder.svg" color="#6366f1">
+    <!-- Apple touch icon fallback -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>D10G3N Live</h1>
+                </div>
+                <nav class="nav">
+                    <button class="nav-toggle" aria-label="Toggle navigation" data-i18n="aria.toggleNav" data-i18n-attr="aria-label">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#albums" class="nav-link" data-i18n="nav.albums">Albums</a></li>
+                        <li><a href="#tracks" class="nav-link" data-i18n="nav.tracks">Tracks</a></li>
+                        <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+                        <li class="lang-selector-item">
+                            <select id="langSelect" class="lang-select" aria-label="Language selector">
+                                <option value="en">EN</option>
+                                <option value="ru">RU</option>
+                                <option value="uk">UK</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-icon">
+                        <img src="assets/placeholder.svg" alt="D10G3N Logo" class="hero-logo">
+                    </div>
+                    <h2 class="hero-title" data-i18n="hero.title">Welcome to D10G3N Live</h2>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">Music that speaks louder than words</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('tracks')" data-i18n="hero.button.listen">Listen to music</button>
+                        <a href="https://play.google.com/store/apps/details?id=com.d10g3n.live.music" target="_blank" rel="noopener noreferrer" class="google-play-badge">
+                            <img src="assets/ui/GetItOnGooglePlay_Badge_Web_color_English.svg" alt="Get it on Google Play">
+                        </a>
+                        <a href="https://apps.apple.com/app/id6758684399" target="_blank" rel="noopener noreferrer" class="app-store-badge">
+                            <img src="assets/ui/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Albums Section -->
+        <section id="albums" class="albums-section section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.albums">Albums</h2>
+                <div class="albums-grid" id="albumsGrid">
+                    <!-- Albums will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Tracks Section -->
+        <section id="tracks" class="tracks-section section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.tracks">All tracks</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-album="all" data-i18n="filter.all">All</button>
+                    <!-- Album filters will be added here -->
+                </div>
+                <div class="tracks-list" id="tracksList">
+                    <!-- Tracks will be loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section.about">About project</h2>
+                <div class="about-content">
+                    <p data-i18n="about.text1">This is independent music. No algorithms, no trends, no compromises, no labels, no playlists, no rules...</p>
+                    <p data-i18n="about.text2">Just sound, mood, and late-night energy.</p>
+                    <p data-i18n="about.text3">If it resonates — you're in the right place.</p>
+                    <p data-i18n="about.text4">Just beats, emotions, and occasional chaos.</p>
+                    <p data-i18n="about.text5">Press play and see what happens.</p>
+                </div>
+                <!-- Social links (same UI as track detail links) -->
+                <div class="about-links" style="margin-top:1.2rem;">
+                    <h3 data-i18n="about.findUs">Find us on</h3>
+                    <div id="aboutLinks" class="modal-links" aria-label="Artist links">
+                        <!-- links will be rendered here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container" style="padding-bottom: 200px;">
+            <p>&copy; D10G3N Live - All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+                <a href="/privacy-policy.html" style="color: var(--text-muted); text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a>
+                <span style="color: var(--text-muted); margin: 0 0.5rem;">|</span>
+                <a href="/copyright.html" style="color: var(--text-muted); text-decoration: none; transition: color 0.3s ease;">Copyright</a>
+                <span style="color: var(--text-muted); margin: 0 0.5rem;">|</span>
+                <a href="mailto:contact@d10g3n.live" style="color: var(--text-muted); text-decoration: none; transition: color 0.3s ease;">contact@d10g3n.live</a>
+                <span style="color: var(--text-muted); margin: 0 0.5rem;">|</span>
+                <span id="appVersion" style="color: var(--text-muted); font-size: 0.85rem;">v1.0</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Audio Player -->
+    <div class="player" id="audioPlayer">
+        <div class="player-background" id="playerBackground"></div>
+        <div class="player-container">
+            <div class="player-info">
+                <img src="assets/placeholder.svg" alt="Track cover" class="player-cover" id="playerCover">
+                <div class="player-details">
+                    <div class="player-title" id="playerTitle" data-i18n="player.select">Select track</div>
+                    <div class="player-artist" id="playerArtist">D10G3N</div>
+                </div>
+            </div>
+            <div class="player-controls">
+                <button class="control-btn" id="prevBtn" aria-label="Previous track" data-i18n="aria.prev" data-i18n-attr="aria-label">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+                </button>
+                <button class="control-btn control-btn-play" id="playBtn" aria-label="Play/Pause" data-i18n="aria.play" data-i18n-attr="aria-label">
+                    <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    <svg id="pauseIcon" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>
+                </button>
+                <button class="control-btn" id="nextBtn" aria-label="Next track" data-i18n="aria.next" data-i18n-attr="aria-label">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 18h2V6h-2zm-11-1l8.5-6-8.5-6z"/></svg>
+                </button>
+            </div>
+            <!-- Track-specific action icons (link icons + info) -->
+            <div class="player-track-actions" id="playerTrackActions" aria-label="Current track actions" data-i18n="aria.trackActions" data-i18n-attr="aria-label"></div>
+            <div class="player-progress">
+                <span class="player-time" id="currentTime">0:00</span>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                    <div class="progress-handle" id="progressHandle"></div>
+                </div>
+                <span class="player-time" id="totalTime">0:00</span>
+            </div>
+            <div class="player-extra">
+                <button class="control-btn control-btn-small" id="shuffleBtn" aria-label="Shuffle" data-i18n="aria.shuffle" data-i18n-attr="aria-label">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
+                </button>
+                <button class="control-btn control-btn-small" id="repeatBtn" aria-label="Repeat" data-i18n="aria.repeat" data-i18n-attr="aria-label">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg>
+                </button>
+                <button class="control-btn control-btn-small" id="volumeBtn" aria-label="Volume" data-i18n="aria.volume" data-i18n-attr="aria-label">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+                </button>
+                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="100">
+            </div>
+        </div>
+    </div>
+
+    <audio id="audioElement"></audio>
+
+    <!-- Track Detail Panel (overlay) -->
+    <div class="detail-panel" id="trackDetail" aria-hidden="true">
+        <button class="detail-close" onclick="closeModal()" aria-label="Close" data-i18n="aria.close" data-i18n-attr="aria-label">&times;</button>
+        <div class="detail-container">
+            <div class="detail-header">
+                <img src="" alt="Track cover" class="modal-cover" id="modalCover">
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalYear"></p>
+                    <div class="modal-links" id="modalLinks"></div>
+                </div>
+            </div>
+            <div class="detail-body">
+                <div class="modal-lyrics">
+                    <pre id="modalLyrics"></pre>
+                </div>
+                <div class="modal-video" id="modalVideo"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="version.js?v=1.0.202602151336"></script>
+    <script src="js/i18n.js?v=1.0.202602151336"></script>
+    <script src="js/data.js?v=1.0.202602151336"></script>
+    <script src="js/player.js?v=1.0.202602151336"></script>
+    <script src="js/main.js?v=1.0.202602151336"></script>
+</body>
+</html>

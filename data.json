@@ -1,0 +1,369 @@
+{
+  "albums": [
+    {
+      "id": "album3",
+      "title": "Лобби жизни",
+      "year": 2026,
+      "cover": "assets/albums/BAN.png",
+      "tracks": [
+        "track13",
+        "track12"
+      ]
+    },
+    {
+      "id": "album1",
+      "title": "Электростартапизация",
+      "year": 2025,
+      "cover": "assets/albums/electrostartupization_2025_1.png",
+      "upc": "8721355579424",
+      "tracks": [
+        "track6",
+        "track5",
+        "track4",
+        "track3",
+        "track1"
+      ]
+    },
+    {
+      "id": "album2",
+      "title": "Covers",
+      "year": 2026,
+      "cover": "assets/albums/covers.png",
+      "tracks": [
+        "track10",
+        "track8"
+      ]
+    },
+    {
+      "id": "album0",
+      "title": "Singles",
+      "year": 2025,
+      "cover": "assets/albums/singles.png",
+      "tracks": [
+        "track11",
+        "track7",
+        "track2"
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "id": "track13",
+      "title": "БАН",
+      "year": 2026,
+      "albumId": "album3",
+      "cover": "assets/albums/BAN.png",
+      "audioFile": "assets/audio/D10G3N - Ban.mp3",
+      "lyrics": "Бан без причины - без разбирательств и морок\nБез логов и ошибок - одномоментный блок\nНикнейм погас с таблицы, как лампа в перегруз\nТы никого не агрил - ты просто был не в курс\n\nКик по тишине, внезапный холодок\nНе совпал с патчем - получил permanent lock\nВчера ты был \"в пати\", всем как брат и свой\nСегодня - пользователь недоступен... Ноль!\n\nСервер решил, что ты лишний килобайт\nНамного выше ранга чем их auto-reply\nХоть читером ты не был, не юзал ты speedhack\nТы просто выбрал - не того цвета флаг\n\nБан в оналйне - кнопка, секунда, щелчок\nНо ведь в реале - бусик, подвал, замок\nВезде \"доступ закрыт\", а тут \"мы вам напишем\"\nА кто это сделал? Никто ничего не слышал.\n\nБАН\nБАН\nЛобби жизни - чёрный экран\nБез причины, без таймера, без прав\nБАН\nБАН\nТы не сломал баланс\nПросто вышел за рамки - их масок и фраз\n\nЧат бежит, как лента магнитофона\nСообщение есть - но нет телефона\nСтатус \"Доставлено\" - но не \"Прочитано\"\nДумал в сказку попал? - Попытка засчитана\n\nГолос без тега - убрали на mute\nМысли без бренда - никуда не дойдут\nЧестное мнение - не для трендов дня\nСистема решила изолировать тебя\n\nВот тут \"Не формат\", и целевая не та!\nА здесь \"Слишком сложно\" - подача не зашла\nТут любят эхо, а не саму суть вопросов\nКто ломает цикл - того просто подбросят!\n\nБанят за паузу, и за пропущенный такт\nНа каждое \"если?\" - \"Да будет вот так!\"\nЗа честный взгляд без скина и роли\nЗа выбор быть больше, чем аватар в поле\n\nБАН\nБАН\nЛобби жизни - no respawn\nСвет погас - остался черный экран\nБАН\nБАН\nТы понял главный системный изъян:\nСамый жёсткий бан - Когда ты сам\n\nТень вместо профиля, минус ID\nБыл человек - остался User 003\n\n© D10G3N Records | 07.02.2026",
+      "youtubeId": "",
+      "links": []
+    },
+    {
+      "id": "track12",
+      "title": "NPC.exe",
+      "year": 2026,
+      "albumId": "album3",
+      "cover": "assets/albums/npc.jpg",
+      "audioFile": "assets/audio/D10G3N - NPC.exe.mp3",
+      "lyrics": "Одинаковый маршрут\nОдинаковый салют\nКофе\nОфис\nТот же стул\nТот же муд\nТот же культ\nКаждый день как автоплей\nМир делится на \"окей\"\nЕсли скажут \"это тренд\"\nСтало нужно вдруг в момент\nКлон за клоном в коридор\nКопипаста разговор\n\"Я так думаю\"\nНо стоп\nЭто видос из рекомендаций\nБро\n\nNPC\nNPC\nЛобби жизни\nВы в сети\nAlt + Tab - и нет лица\nТолько маска до конца\nNPC\nNPC\nТе же фразы\nТе же сны\nГде твой глюк\nГде твой баг?\nИли ты навечно в этот лаг?\n\n\"Так нельзя\" - кто сказал?\nГолос \"общего канала\"\nТам\nГде мысль могла бы встать\nУже стоит чужая шпала\nВсе по сценарию \"как все\"\nГолос залип на пустоте\nЕсли выключить эфир\nКто останется внутри?\nГоворишь \"это my vibe\"\nНо звучишь как общий чат\nЕсли мнение - товар\nГде твой собственный формат?\n\nСделай шаг из этих сцен\nИз бесконечных однотем\nЕсли мир похож на скрипт\nТы же мог бы выйти в миг\n\nNPC\nNPC\nЛобби жизни\nВы в сети\nAlt + Tab - и нет лица\nТолько маска до конца\nNPC\nNPC\nТе же фразы\nТе же сны\nГде твой глюк\nГде твой баг?\nИли ты навечно в этот лаг?\n\nСкажут \"лайк\" - ты кивни\nСкажут \"фейк\" - удали\nЕсли голос вдруг включил -\nЗначит\nТы уже не...\n\n©\uFE0F D10G3N Records | 29.01.2026",
+      "youtubeId": "",
+      "links": []
+    },
+    {
+      "id": "track11",
+      "title": "House of Pain",
+      "albumId": "album0",
+      "year": 2026,
+      "cover": "assets/albums/pain_a.jpg",
+      "audioFile": "assets/audio/D10G3N - House of Pain.mp3",
+      "lyrics": "Pain...\n\nSay you got a bad headache\nSo we get some Tylenol (Ooh, yeah)\nSay you got a backache\nWe just lay in bed all day\nSay you got a heartache\nSo I took you to the house\nNow I see the games you play\nSo I guess I'll show you out (Ooh, yeah)\n\nTo the house of pain\nHouse of pain\nHouse of pain\nHouse of pain\n\nPain...\n\n©\uFE0F D10G3N Records | 10.01.2025",
+      "youtubeId": "",
+      "isrc": "NL9KR2627301",
+      "links": []
+    },
+    {
+      "id": "track6",
+      "title": "Существо",
+      "albumId": "album1",
+      "year": 2025,
+      "cover": "assets/albums/egs_yt_1500.jpg",
+      "audioFile": "assets/audio/D10G3N - Sushchestvo.mp3",
+      "lyrics": "Это гнусное существо,\nНа свет появилось в рождество.\nИ каждый кто хоть раз увидел его,\nДелил свою жизнь на после и до!\n\nОн шел, шел, упал... И обосрался.\nПодъезд чуть не рухнул, дом содрагался.\n\"Буду вот-вот\", пусть весь мир подождет.\nВ один клик исцелился - ведь поезд уйдет. \n\nГлаз положил на кешбеки с зарплаты,\nА свой грязный туз проиграл в гугл карты.\nНа кон был поставлен график рассчета,\nЖдем февраля високосного года.\n\nКормит словами, но на деле позор,\n\"Все будет, держись\" - и уходит в игнор.\nСегодня поклялся, а завтра - забыл,\nНо с золотом сейф никогда не был пустым.\n\nКруто быть первым, но только в отчетах,\nНа руки чужие - спихнуть все заботы.\nВ чате герой и большой голова,\nА в деле - туман, суета и вода.\n\nПламенной речи часовой монолог,\nВсех надо уверить, что Пена - не лох!\nДружбы нет даже со своей головой,\nКорона на нем, остальные - отстой!\n\nПофигизм и надменность придают суперсилы,\nНо помни - не взять с собой денег в могилу.\nСейчас ты хозяин, а завтра - никто,\nКогда вся твоя сущность - цирк шапито.\n\nОбычный услышит - подумает бред,\nА тот, кто был рядом, словит флешбэк.\nБез имени, чести, достоинства, роли...\nВ моменте умножат на ноль твою долю!\n\n©\uFE0F D10G3N Records | 25.12.2025",
+      "youtubeId": "8Ye_SGW3HvE",
+      "isrc": "NL9KR2623079",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/8Ye_SGW3HvE"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/2wKFVTpurbhursrRsbSxJh?si=996e1386ca6f4021"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/sushchestvo"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamhpyD5"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DSxQGRjiSNg/?igsh=MXRmNXIyYTl0djc0YQ=="
+        }
+      ]
+    },
+    {
+      "id": "track5",
+      "title": "404: Вход в IT - Not found",
+      "albumId": "album1",
+      "year": 2025,
+      "cover": "assets/albums/artworks-ByzloBkdGngix8LF-MfkYyQ-t1080x1080.jpeg",
+      "audioFile": "assets/audio/D10G3N - 404 Vhod v IT not found.mp3",
+      "lyrics": "Закончил IT курсы за два понедельника,  \nВ портфолио - тудушка и пару Pet-проектиков.  \nПишу всем HR в личку - «возьмите, прошу!»,  \nА мне отвечает бот: «я тебя не выношу!».\nНа собесе спросили - что за паттерн MVP,  \nГоворю - «мне мама сказала: в ответе не тупи».  \nНебольшое тестовое - на три дня без сна,  \nА в ответ: «ваш код ниже уровня дна».\n\nТретий этап собеса, четвёртый звонок,  \n«А теперь расскажите про UI поток».  \nАрхитектура, тесты, моки... А какой у Вас скилл?\nНо в конце ответ: «мы вам точно перезвоним!»\nЯ устал быть героем, GitHub активности стены,  \nГде задач больше, чем долгов у бедной страны.\nВсё тот же круг - и новый квест,  \nПолучить Offer сложнее, чем покорить Эверест!\n\nHuman Resources - повелитель LinkedIn и Djinni,  \nВсе резюме надо проскринить - я опять на кофеине.  \nВакансии закрой на завтра - но мое лицо как камень,  \nОтправляю письма с «follow-up» уже который раз за день.\n«Мы ищем звезду, часть нашей дружной команды,  \nЗарплата - две ветки, и разумеется, овертаймы».  \nОдним меньше, одним больше, нажимаю “Decline”,  \nО, ТОП кандидат! Не отвечает... Offline.\n\nПочта забита файлами с резюме от партнёров,\nДайте больше сеньйоров, мне не надо стажёров!\nИдеальный инженер должен кодить как Бог, \nНо ценник по зарплате - отказать предлог!\nПарадокс рынка? Так много, но так мало людей!\nДавай удалёнку, и четырех дневный рабочий день!\nНа новый уровень вывести надо наш новый продукт,\nБыть может тогда к нам инвестиции рекой потекут!\n\nWork-life баланс и респект к личным границам,\nЗаполню свой playlist вместо time-tracking таблицы.\nУ Вас нет каникул? Так увольте меня на пол года!\nОтдохну с ветерком, и снова врываюсь в работу!\nВедь важен сам смысл, а не бейджик на жилетке,\nЗумер не будет сидеть - как птица в клетке.\nЗапахло токсичностью? Просто встану и уйду!\nКак хозяин своей жизни, жму я кнопку \"Undo\"!\n\nПингани меня позже, мы все кандидаты,\nВ бесконечным цикле рабочего формата.\nКаждый день новый feedback, reject или найм,\nВсе найдут свой perfect match, just in time!\n\n©\uFE0F D10G3N Records | 11.10.2025",
+      "youtubeId": "iqwupCCxldo",
+      "isrc": "NL9KR2623082",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/iqwupCCxldo"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/5nA6wPEwRDraxcEzUsurn6?si=68b9c835710e47ad"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/404-it-entrance-not-found"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamhstvB"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DP88iN6DDqB/?igsh=bDZpenJzMnJqYW0x"
+        }
+      ]
+    },
+    {
+      "id": "track4",
+      "title": "Гимн АйТи-шника",
+      "albumId": "album1",
+      "year": 2025,
+      "cover": "assets/albums/artworks-3eI2FI4Rpq4o25gf-5zu5zg-t1080x1080.jpeg",
+      "audioFile": "assets/audio/D10G3N - Gimn IT.mp3",
+      "lyrics": "Я проснулся, на часах 08:59,\nЧерез минуту дейли митинг, надо зааттэндить.\nPM пингует меня, что там, когда отдашь в QA,\nФинализирую задачу, вот такие вот дела.\n\nСозвон на три часа, но у всех стоит mute,\nДизайнер меняет фигму, а QA словил глюк!\nВ джире новый эпик - пятьсот подтасков, \nНаш стартап уделает даже Илона Маска!\n\nА я пофиксил один баг, теперь вылезло пять,\nНо ведь на завтра в релиз нам все нужно отдать.\nPM пишет ночью - “там чуть-чуть поправь”,\nИ вот мы имеем очередной овертайм.\n\nВ пятницу деплой - мы ходим по тонкой грани,\nБез ревью все пушим в прод, авось да прокатит.\nВ кубернетисе ресурсы для микросервисов умножь,\nНо истина в том, что: \"Работает? Не трожь!\"\n\nKoin, Ktor и DataStore - я все знаю, я синьйор,\nКто-то смотрит в завтрашний день, но а я в свой монитор.\nDevOps выкатил все в прод, а Джун пофиксил UI,\nChatGPT и AI - повысят мой KPI.\n\nDocker сожрал оперативку, как ненасытный зверь,\nС Android Studio логи - пойди-ка проверь.\nStackTrace'ы и Crash'ы - мониторю во всю,\nЗаливаю все патчи - в feature ветку свою!\n\nCI/CD встал на паузу, собираю билд руками,\nVPN отвалился, сертификат надо поставить.\nРелиз подготовлен, отправлен в ревью,\nИ я на премиум карту, зарплату ловлю.\n\n©\uFE0F D10G3N Records | 05.10.2025",
+      "youtubeId": "-02R2rQm0B8",
+      "isrc": "NL9KR2623081",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/-02R2rQm0B8"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/0w3Txt5T6OGyLkr95GXFho?si=092274fb0bf545f2"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/gimn-ayti-shnika"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamkJv9Y"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DPb_jRDDUbz/?igsh=Zm1jMTMzcjB1M3Ru"
+        }
+      ]
+    },
+    {
+      "id": "track3",
+      "title": "Не сделал бэкап? Данные - в утиль!",
+      "albumId": "album1",
+      "year": 2025,
+      "cover": "assets/albums/artworks-5Tir3t5z5b9nDy10-ys2fiA-t1080x1080.jpeg",
+      "audioFile": "assets/audio/D10G3N - Ne sdelal backup - danniye v util.mp3",
+      "lyrics": "Я включаю ПК, жду апдейты как сериал,\nПоловина дня - и снова синий экран.\nEdge не удаляемый, Windows шепчет мне:\n\"Ты не выключайся, я обновлюсь во сне!\"\n\nOffice, Teams, Defender в бой,\nТелеметрия в фоне - кайф, родной!\nНо мне орет мой друг из АйТи:\n\"Ты живёшь в аду, брат, сбеги!\"\n\nCtrl + Alt + Delete - наш священный ритуал,  \nУ кого не крашилось - тот просто соврал.\nИ хоть разный Shell, разный вайб и стиль,\nНе сделал бэкап? Данные - в утиль!\n\nУ меня MacBook, я пью латте в кафе,\nДизайнер, девелопер - кто я? Да все!\nМне мышь не нужна, у меня Trackpad,\nЗа надкушенное яблоко - я продал свой зад.\n\nXCode виснет - но зато как бомбезно,\nLiquid glass блестит, всё выглядит чудесно.\n\"Command + Q\" - мой смертный враг,\nА brew качает всё, что смог бы apt!\n\nWindows глючит, Mac греет как печь,  \nLinux не пашет, но не перечь.\nИ хоть разный Shell, разный вайб и стиль,\nНе сделал бэкап? Данные - в утиль!\n\nА я линуксоид, я не такой как всё стадо,\nКомандная строка - это все что мне надо!\nСпросишь, кто я по жизнии, в чем моя цель?\nА я отвечу: \"I use Arch, by the way!\"\n\nВсё из исходников, make install.\nГде картинка? Где звук? Это Update все сломал!\nЯ сам себе бог, на localhost'е я root.\nВ смысле, не пашет? Сам виноват, вот тут!\n\nGentoo билдит пакеты третий день,\nDebian стар, но стабилен как кремень.\nUbuntu скатилась, Fedora топ тренда,\nЗацени Arch Linux, он живая легенда.\n\nWindows шпион, Мак - гламурный тип,\nLinux как маньяк - загонит в тупик.\nDesktop Space не поделить, но я всем говорю:\n“By the way, I use Arch” - и я не шучу!\n\n©\uFE0F D10G3N Records | 04.10.2025",
+      "youtubeId": "Kv9kfgAQnaM",
+      "isrc": "NL9KR2623080",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/Kv9kfgAQnaM"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/1myOAi07Aa7iESVRbYKkWC?si=ebb435f0cefb4219"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/ne-sdelal-bekap-dannye-v-util"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamhuuLd"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DPbGp7QAP78/?igsh=bTgweHJyb2EzOTU4"
+        }
+      ]
+    },
+    {
+      "id": "track1",
+      "title": "Йоу окей Дрончик Андрей",
+      "albumId": "album1",
+      "year": 2025,
+      "cover": "assets/albums/artworks-mCdkWgyaym5gvXv9-ADViFg-t1080x1080.jpeg",
+      "audioFile": "assets/audio/D10G3N - Yo okay, dronchik Andrey.mp3",
+      "lyrics": "Йоу окей Дрончик Андрей!\nВ контр-страйк он рубится, словно зверь.\nЗакупился, раскидал, выбил эйс - ну молодец, \nКонтры ведь тащат - а терам придет капец!\n\nВ Geometry Dash он прямо как зверь, \nВсе дейли уровни - без страха и потерь, \nОн как машина, без труда все проходил, \nКаждое препятствие - филигранно обходил.\n\nВ Доту он играл, но теперь ПК не тянет,\n15-ти летний ноут - вот это банит,\nНо когда-то он был королем в своих боях, \nТеперь уже Дота не запускается никак.\n\nТелега пинганула - это новый мем в рассылке, \nWeibe Rasse тащится от каждой новой картиники. \nХуТао рядом с Гитлером - топовая аватарка, \nДолой всю модерацию, долой все рамки!\n\nЕдинственный зритель на стримах у Диогена, \nТоп донатер в списке - он всегда самый первый, \nЕго жизнь это веселье, игры, мемы и угар, \nВ чат летит емоджи энгри - отвечай ка за базар!\n\nПиво и коньяк - это ведь не ок...\nЛучше выпей, вот, чаек - это тема, браток!\nДля себя открой палитру вкусов и ароматов,\nБеги на всей скорости - от пол литрового формата!\n\nТы не Андрей... Просто знай что ты - Андроид,\nЛучше Чата GPT, приложения он кодит.\nУязвимости и баги, все зафиксит он на раз,\nВедь Начальник им доволен - и зарплата класс.\n\nКогда больше нет сил, ждет тебя награда,\nПо доставке в Glovo мак - это то что надо!\nСтрипсы, дипы, бургер - или... целое меню,\nОн кусочек за кусочком - уничтожит на корню!\n\n©\uFE0F D10G3N Records | 29.09.2025",
+      "youtubeId": "3kuqauB2BDU",
+      "isrc": "NL9KR2623078",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/3kuqauB2BDU"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/track/5gNygmuscLTffu7i1VeMZt?si=17b0e937b41741fc"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/you-okey-dronchik-andrey"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamr7mWp"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DPbDN_RgGz3/?igsh=MTU1dnd5dm44dHA4OQ=="
+        }
+      ]
+    },
+    {
+      "id": "track10",
+      "title": "No one can stop (SMD pro Cover)",
+      "albumId": "album2",
+      "year": 2026,
+      "cover": "assets/albums/3c9b2c88cb0d66c9945a30bca523e63a47857af9273f03ac3b0ffc6921ba6f79.png",
+      "audioFile": "assets/audio/D10G3N - No one can stop.mp3",
+      "lyrics": "Tonight\nI saw a gloving just on your body\nTonight\nI saw a flame in your eyes\nAll in\nAnd now\nI know I can be your buddy\nAnd now\nI'm looking on my dream\n\nNo one can stop\nWhat I get in\nDeepest mind \nthat I keep clean\nWanna dive in\nMy biggest dream\nNo one can stop \nMy exploration\nTaking it's best\nWant to connect \nGetting through\nAll directly\nWhen it got me\nWhat I get in\nStreamlined feel\n\nAgain\nWe try escape the reality\nAgain\nWe spend together day\nAll in\nAnd now\nYou'd better leave to anybody\nAnd now\nYou'd join your best deal\n\nNo one can stop\nWhat I get in\nDeepest mind \nthat I keep clean\nWanna dive in\nMy biggest dream\nNo one can stop \nMy exploration\nTaking it's best\nWant to connect \nGetting through\nAll directly\nWhen it got me\nWhat I get in\nStreamlined feel\n\nNo one can stop\nWhat I get in\nDeepest mind \nthat I keep clean\nWanna dive in\nMy biggest dream\nNo one can stop \nMy exploration\nTaking it's best\nWant to connect \nGetting through\nAll directly\nWhen it got me\nWhat I get in\nStreamlined feel",
+      "youtubeId": "",
+      "links": []
+    },
+    {
+      "id": "track8",
+      "title": "Never meet again (SMD pro Cover)",
+      "albumId": "album2",
+      "year": 2026,
+      "cover": "assets/albums/ILYF_sq.jpg",
+      "audioFile": "assets/audio/D10G3N - Never meet again (SMD pro Cover).mp3",
+      "lyrics": "",
+      "youtubeId": "xKuNJFfvcoY",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/xKuNJFfvcoY"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/never-meet-again-smd"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamk64xs"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DTGkZ23lFTV/?igsh=YzY5bnFhbG5lczhl"
+        }
+      ]
+    },
+    {
+      "id": "track7",
+      "title": "Beyond the sunset horizon",
+      "albumId": "album0",
+      "year": 2026,
+      "cover": "assets/albums/btsh.jpg",
+      "audioFile": "assets/audio/D10G3N - Beyond the sunset horizon.mp3",
+      "lyrics": "",
+      "youtubeId": "",
+      "isrc": "NL9KR2627299",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/6U_oRdrTE0U"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/beyond-the-sunset-horizon"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamhW1Gc"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DTAcSflD7WZ/?igsh=cWZiYWJ6Z2dxNXQ0"
+        }
+      ]
+    },
+    {
+      "id": "track2",
+      "title": "16 enter - 1 leaves...",
+      "albumId": "album0",
+      "year": 2025,
+      "cover": "assets/albums/artworks-Z4yMEw1OL3ChIA2y-lFZxOw-t1080x1080.jpeg",
+      "audioFile": "assets/audio/D10G3N - 16 enter, 1 leaves.mp3",
+      "lyrics": "“Sixteen enter, one leaves...  \nWelcome... to DISASTERS!”\n\nЯ зашёл на Disasters - думаю, chill,  \nА сервер шепчет: “Брат, ты хотел адреналин?”.\nAcid Rain льёт сверху, не спасёт зонт,  \nЯ стою под деревом - бац! Lightning Thunderbolt!.\n\nМетеоры падают, скоро лавой пол зальёт,  \nТорнадо в небе крутит - мой друг уже не живёт.  \nFlood идёт как цунами, крики \"Save me bro!\".\nНо блоки не поставить - тут не Skyblock, йо!\n\nЧетыре минуты ада, ХАЙПИКСЕЛЬ нас крутит как миксер,  \nКто выживет - тот легенда, кто нет - /spectator фиксер.  \nD10G3N жив, опять, без потерь, как бог,  \nZalgo_D в Purge с мечом идёт - всё, гейм-оверклок!\n\nWithers спавнятся с неба, зомби ломятся в дом,  \nНо дома-то нет - Sinkhole съел его в момент.  \nThe Floor is Lava, я кричу “no way!”,  \nПрыгаю по блокам, будто parkour relay.\n\nAnvil Rain сверху, погода так себе,  \nHot Potato в руках - бро, не кидай мне!  \nRed Light, Green Light - стою, но тут...\nSwappage кидает меня прямо к зомби в лут!\n\nHyPixel Disasters, игра судного дня,  \nДоминируй над хаосом - мастер выживания.\nZalgo_D в Werewolf mode - мечом каждого забъет.\nВсех он пустит на компот... Вот это поворот!\n\nBlackout, ничего не видно - я слышу шаги,  \nHalf Health, я дышу, но уже на нуле, увы.  \nТорнадо кружит чат: “Easy win by ДиоГен!”.\nВ вопросах выживания он в курсе всех схем.\n\nЧетыре минуты до конца, сердце как RedStone,  \nМолния бьёт в Steve’а - это Disaster Zone!  \nЕсли вдруг ты выжил, знай, ты почти бог,  \nНо где-то рядом - Zalgo_D и D10G3N, бро.\n\nDisasters is not for the weak.\nD10G3N.\nSurvived. \nZalgo_D hunted.  \nEveryone else... \nRespawned.\n\n©\uFE0F D10G3N Records | 03.10.2025",
+      "youtubeId": "RicnZjDSRMY",
+      "isrc": "NL9KR2627297",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/RicnZjDSRMY"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/16-enter-1-leaves-its-hypixel-disasters"
+        },
+        {
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSamhjkYn"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DPbElA4jsW-/?igsh=MTg5ZHgzNm1oaXhhNA=="
+        }
+      ]
+    }
+  ],
+  "artistLinks": [
+    {
+      "platform": "spotify",
+      "url": "https://open.spotify.com/artist/3OmPiKg36fYukLMOYBKfx7"
+    },
+    {
+      "platform": "soundcloud",
+      "url": "https://soundcloud.com/d10g3n"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@D10G3N-channel"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/the_d10g3n"
+    },
+    {
+      "platform": "tiktok",
+      "url": "https://tiktok.com/@the_d10g3n"
+    }
+  ]
+}
