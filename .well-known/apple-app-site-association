@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "383EQFRA4A.com.d10g3n.live.music"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches all paths including fragments"
+          }
+        ]
+      }
+    ]
+  }
+}

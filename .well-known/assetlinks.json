@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.d10g3n.live.music",
+      "sha256_cert_fingerprints": [
+        "D2:04:2C:0F:64:8C:3D:5E:88:C3:70:15:91:2F:D7:4A:1D:25:21:67:5D:CE:67:9A:1F:A2:23:23:31:A4:AE:D9",
+        "C2:6A:12:46:07:2D:86:0C:0F:EA:52:BF:DB:3E:A7:C8:4E:05:36:41:A6:68:74:8D:53:51:39:C6:9A:96:F4:D9",
+        "80:E0:A2:0C:B5:31:D8:F7:30:5E:43:CF:09:C0:20:2A:0D:B1:27:66:36:64:4D:CF:6F:F1:D9:6B:71:16:D2:F1"
+      ]
+    }
+  }
+]

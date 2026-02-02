@@ -1,0 +1,3 @@
+# Redirects for Cloudflare Pages
+# Redirect trailing slashes
+/index.html /
