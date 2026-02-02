@@ -1,0 +1,19 @@
+{
+  "name": "d10g3n-music",
+  "version": "1.0.0",
+  "description": "D10G3N Live - Music streaming platform",
+  "scripts": {
+    "generate-pages": "node generate-track-pages.js",
+    "update-jsonld": "node update-jsonld.js",
+    "update-sitemap": "node update-sitemap.js",
+    "build": "node generate-track-pages.js"
+  },
+  "keywords": [
+    "music",
+    "streaming",
+    "d10g3n"
+  ],
+  "author": "D10G3N",
+  "license": "ISC"
+}
+

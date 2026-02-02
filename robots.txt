@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /track/
+Allow: /assets/
+
+# Disallow version control and config files
+Disallow: /.git
+Disallow: /.htaccess
+Disallow: /generate-track-pages.js
+
+# Sitemap
+Sitemap: https://d10g3n.live/sitemap.xml
+
+# Crawl-delay (optional, uncomment if needed)
+# Crawl-delay: 1
+

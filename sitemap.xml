@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Main page -->
+  <url>
+    <loc>https://d10g3n.live</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live?lang=uk"/>
+  </url>
+  
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://d10g3n.live/privacy-policy.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Copyright -->
+  <url>
+    <loc>https://d10g3n.live/copyright.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Tracks with language alternatives -->
+  <url>
+    <loc>https://d10g3n.live/track/uniform-without-a-face-english-version</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/uniform-without-a-face-english-version?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/uniform-without-a-face-english-version?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/uniform-without-a-face-english-version?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/forma-bez-oblichchya-ukrayinska-versiya</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/forma-bez-oblichchya-ukrayinska-versiya?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/forma-bez-oblichchya-ukrayinska-versiya?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/forma-bez-oblichchya-ukrayinska-versiya?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/forma-bez-litsa</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/forma-bez-litsa?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/forma-bez-litsa?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/forma-bez-litsa?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/sboy-v-matritse</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/sboy-v-matritse?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/sboy-v-matritse?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/sboy-v-matritse?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/ban</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/ban?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/ban?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/ban?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/npcexe</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/npcexe?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/npcexe?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/npcexe?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/house-of-pain</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/house-of-pain?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/house-of-pain?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/house-of-pain?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/suschestvo</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/suschestvo?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/suschestvo?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/suschestvo?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/404-vhod-v-it-not-found</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/404-vhod-v-it-not-found?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/404-vhod-v-it-not-found?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/404-vhod-v-it-not-found?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/gimn-ayti-shnika</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/gimn-ayti-shnika?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/gimn-ayti-shnika?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/gimn-ayti-shnika?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/ne-sdelal-bekap-dannye-v-util</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/ne-sdelal-bekap-dannye-v-util?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/ne-sdelal-bekap-dannye-v-util?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/ne-sdelal-bekap-dannye-v-util?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/you-okey-dronchik-andrey</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/you-okey-dronchik-andrey?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/you-okey-dronchik-andrey?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/you-okey-dronchik-andrey?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/no-one-can-stop-smd-pro-cover</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/no-one-can-stop-smd-pro-cover?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/no-one-can-stop-smd-pro-cover?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/no-one-can-stop-smd-pro-cover?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/runaway-groove-coverage-cover</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/runaway-groove-coverage-cover?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/runaway-groove-coverage-cover?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/runaway-groove-coverage-cover?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/never-meet-again-smd-pro-cover</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/never-meet-again-smd-pro-cover?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/never-meet-again-smd-pro-cover?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/never-meet-again-smd-pro-cover?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/beyond-the-sunset-horizon</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/beyond-the-sunset-horizon?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/beyond-the-sunset-horizon?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/beyond-the-sunset-horizon?lang=uk"/>
+  </url>
+  
+  <url>
+    <loc>https://d10g3n.live/track/16-enter-1-leaves</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://d10g3n.live/track/16-enter-1-leaves?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://d10g3n.live/track/16-enter-1-leaves?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://d10g3n.live/track/16-enter-1-leaves?lang=uk"/>
+  </url>
+  
+</urlset>

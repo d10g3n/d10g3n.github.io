@@ -1,0 +1,14 @@
+# Redirects for Cloudflare Pages
+# Redirect trailing slashes
+/index.html /
+# Cloudflare Pages redirects
+# See: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Redirect root to home section (optional)
+# / /index.html 200
+
+# Handle track URLs without trailing slash
+/track/* /track/:splat/index.html 200
+
+# 404 fallback - all unknown routes go to index.html (for SPA behavior)
+/* /index.html 404
