@@ -55,16 +55,52 @@
       "id": "album0",
       "title": "Singles",
       "artist": "D10G3N",
-      "year": 2025,
+      "year": 2026,
       "cover": "assets/albums/singles.png",
       "tracks": [
+        "track20",
+        "track18",
         "track11",
         "track7",
         "track2"
       ]
+    },
+    {
+      "id": "album5",
+      "title": "Remixes",
+      "artist": "D10G3N",
+      "year": 2026,
+      "cover": "assets/albums/remixes.png",
+      "tracks": [
+        "track19"
+      ]
     }
   ],
   "tracks": [
+    {
+      "id": "track20",
+      "title": "Димон (Dimon)",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "ru",
+      "albumId": "album0",
+      "cover": "assets/albums/dimon.png",
+      "audioFile": "assets/audio/D10G3N - Dimon.mp3",
+      "lyrics": "На мониторе полночь, \nПод ним лежит смартфон,\nЭкспертов всех волнует,\nЧто думает Димон?\n\nКуда бежать в армагеддон,\nВ чатах начался разгон,\nВо всех вопросах в теме,\nТолько лишь Димон!\n\nКто сказал что \"не формат\",\nНе получит свой откат,\nКто спросил \"а вот зачем?\",\nЭто Димон так захотел!\n\nБит раскачивает лифт,\nНажал кнопку ноль-шесть-семь,\nЭтот мир перед Димоном,\nРаспахнет любую дверь!\n\nЭх, Димон,\nДииии-мооооон,\nВсем врагам наносит,\nКритический урон.\n\nЭх, Димон,\nДииии-мооооон,\nНеоновой подсветкой,\nОсветит весь район.\n\nЭх, Димон,\nДииии-мооооон,\nЗапустит интернет,\nДаже там где его нет.\n\nЭх, Димон,\nДииии-мооооон,\nНа черном BMW,\nНесется он в рассвет.\n\nКот во всю кричал,\nНо бумер деру дал.\nНе мы такие, жизнь такая,\nМиром правит нал.\n\nМенделеев смотрит,\nЧто за элемент?\nЯдерный Димоний,\nВзрывной эксперимент.\n\nВ студии серьезный спор,\nРазоблачаем чистый гон,\nОппонентам всем позор,\nВот какой же ты Гордон!\n\nПодключаемся на мит,\nПароль входа ноль-шесть-семь,\nДимону стопроцентный,\nГарантирован успех!\n\nЭх, Димон,\nДииии-мооооон,\nВсем врагам наносит,\nКритический урон.\n\nЭх, Димон,\nДииии-мооооон,\nНеоновой подсветкой,\nОсветит весь район.\n\nЭх, Димон,\nДииии-мооооон,\nЗапустит интернет,\nДаже там где его нет.\n\nЭх, Димон,\nДииии-мооооон,\nНа черном BMW,\nНесется он в рассвет.\n\nС командной оболочки,\nУбил зомби-процесс,\nВсе скидки и купоны,\nСобрал с али-экспресс.\n\nКруче он из года в год,\nГрациозен прям как лорд,\nМинус три проблемы,\nПлюс один рекорд.\n\nКто устраивал погром,\nКто беспределил напролом,\nВсех безумных клоунов,\nДимон отдал в дурдом.\n\nЭх, Димон,\nДииии-мооооон...\n\nЭх, Димон,\nДииии-мооооон...\n\nВ округе ровно полночь,\nДимон занял свой трон,\nИ все в момент замолкли,\nВедь так решил Димон!\n\n©\uFE0F D10G3N Records | 02.07.2026",
+      "youtubeId": "BmhefBEgvSw",
+      "isrc": "",
+      "links": [
+        {
+          "platform": "youtube",
+          "url": "https://youtu.be/BmhefBEgvSw"
+        }
+      ],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
     {
       "id": "track18",
       "title": "SDAI",
@@ -79,12 +115,16 @@
       "isrc": "NL9KR2694832",
       "links": [
         {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/album/6WGScFsi7aF1IWc7W7OmR0"
+        },
+        {
           "platform": "youtube",
           "url": "https://youtu.be/Yl32tlCp6hY"
         },
         {
           "platform": "soundcloud",
-          "url": "https://soundcloud.com/d10g3n/sdai"
+          "url": "https://soundcloud.com/d10g3n-music/sdai"
         },
         {
           "platform": "instagram",
@@ -93,6 +133,29 @@
         {
           "platform": "tiktok",
           "url": "https://www.tiktok.com/@the_d10g3n/video/7657531842865679624?is_from_webapp=1&sender_device=pc&web_id=7588531520178325003"
+        }
+      ],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
+    {
+      "id": "track19",
+      "title": "Morozoff - Club Kings (D10G3N Remix)",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "en",
+      "albumId": "album5",
+      "cover": "assets/albums/club_kings.png",
+      "audioFile": "assets/audio/D10G3N - Club Kings.mp3",
+      "lyrics": "",
+      "youtubeId": "",
+      "links": [
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n/morozoff-club-kings-d10g3n"
         }
       ],
       "availability": {
