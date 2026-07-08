@@ -93,6 +93,14 @@
         {
           "platform": "youtube",
           "url": "https://youtu.be/BmhefBEgvSw"
+        },
+        {
+          "platform": "spotify",
+          "url": "https://open.spotify.com/album/0IvEpeouWn1WAAxai5rzJy"
+        },
+        {
+          "platform": "soundcloud",
+          "url": "https://soundcloud.com/d10g3n-music/dimon"
         }
       ],
       "availability": {
