@@ -1,4 +1,4 @@
-const CACHE_VERSION = '1.0.202607080954';
+const CACHE_VERSION = '1.0.202607191840';
 const CACHE_NAME = `d10g3n-music-v${CACHE_VERSION}`;
 const urlsToCache = [
   '/',

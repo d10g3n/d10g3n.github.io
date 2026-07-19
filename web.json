@@ -58,6 +58,7 @@
       "year": 2026,
       "cover": "assets/albums/singles.png",
       "tracks": [
+        "track21",
         "track20",
         "track18",
         "track11",
@@ -77,6 +78,25 @@
     }
   ],
   "tracks": [
+    {
+      "id": "track21",
+      "title": "Type it, ship it",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "en",
+      "albumId": "album0",
+      "cover": "assets/albums/type_it_ship_it.jpg",
+      "audioFile": "assets/audio/D10G3N - Type it, ship it.mp3",
+      "lyrics": "Open tabs like a card deck\nCoffee cold beside the keys\nCursor blinks, it wants a story\nI got ten ideas, maybe three\n\nPrompt box, I feed it pieces\nStack the shapes, watch them align\nOne more tweak, then one more tweak\nNow it sounds like it was mine\n\nEverybody's chasing speed\nEverybody wants the edge\nBut the best ones move like water\nAnd still know where to land\n\nType it, ship it\nType it, ship it\nMake it real tonight\nType it, ship it\nType it, ship it\nMake the rough parts shine\nI don't need perfect\nI need alive\nType it, ship it\nAnd let it ride\n\nNew tool drops on Monday morning\nBy Friday it’s already old\nOne says drag, one says reason\nOne says free but guards the gold\n\nDemo loops on every timeline\nSame ten clips, same wow face\nI just want a thing that listens\nThen gets out of the way\n\nEverybody's chasing speed\nEverybody wants the edge\nBut the cleanest work comes faster\nWhen the aim stays fixed in place\n\nType it, ship it\nType it, ship it\nMake it real tonight\nType it, ship it\nType it, ship it\nMake the rough parts shine\nI don't need perfect\nI need alive\nType it, ship it\nAnd let it ride\n\nSome days it guesses wrong\nSome days it reads my mind\nSome days I break the whole thing\nThen build it back in time\n\nIt’s not magic, it’s a mirror\nIt reflects what you bring\nSo I bring sharp questions\nAnd a little bit of swing\n\nType it, ship it\nType it, ship it\nMake it real tonight\nType it, ship it\nType it, ship it\nMake the rough parts shine\nI don't need perfect\nI need alive\nType it, ship it\nAnd let it ride\n\n©\uFE0F D10G3N Records | 19.07.2026",
+      "youtubeId": "",
+      "isrc": "",
+      "links": [],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
     {
       "id": "track20",
       "title": "Димон (Dimon)",
