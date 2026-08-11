@@ -178,7 +178,12 @@ async function sha256(file) {
 }
 
 function renderPcmCycle(plan, config, cycleFile, boundaryFade) {
-  const inputArgs = plan.items.flatMap((item) => ['-i', resolve(root, item.source)]);
+  // Feed the first item twice instead of splitting one decoded stream across
+  // both ends of the graph. FFmpeg 6.1 (Ubuntu 24.04) can otherwise finish
+  // this long acrossfade chain with zero frames because the delayed head
+  // branch back-pressures the split output.
+  const inputs = [...plan.items, plan.items[0]];
+  const inputArgs = inputs.flatMap((item) => ['-i', resolve(root, item.source)]);
   const filters = plan.items.map((_, index) => (
     `[${index}:a:0]aresample=${config.encoding.sampleRateHz},` +
     `aformat=sample_fmts=fltp:channel_layouts=stereo,` +
@@ -186,9 +191,14 @@ function renderPcmCycle(plan, config, cycleFile, boundaryFade) {
     `[a${index}${index === 0 ? 'full' : ''}]`
   ));
 
-  filters.push('[a0full]asplit=2[a0body_source][a0head_source]');
-  filters.push(`[a0body_source]atrim=start=${boundaryFade},asetpts=PTS-STARTPTS[a0]`);
-  filters.push(`[a0head_source]atrim=end=${boundaryFade},asetpts=PTS-STARTPTS[a0head]`);
+  filters.push(
+    `[${plan.items.length}:a:0]aresample=${config.encoding.sampleRateHz},` +
+    'aformat=sample_fmts=fltp:channel_layouts=stereo,' +
+    `loudnorm=I=${config.loudness.integratedLufs}:TP=${config.loudness.truePeakDb}:LRA=${config.loudness.rangeLufs}` +
+    '[a0headfull]',
+  );
+  filters.push(`[a0full]atrim=start=${boundaryFade},asetpts=PTS-STARTPTS[a0]`);
+  filters.push(`[a0headfull]atrim=end=${boundaryFade},asetpts=PTS-STARTPTS[a0head]`);
 
   let mixed = 'a0';
   for (let index = 1; index < plan.items.length; index += 1) {
