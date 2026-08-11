@@ -57,8 +57,8 @@ jobs:
       - name: Resolve immutable object keys
         id: keys
         run: |
-          echo "reel=$(node -e \"const m=require('./.radio-build/radio-manifest.json'); process.stdout.write(m.reel.key)\")" >> "$GITHUB_OUTPUT"
-          echo "manifest=$(node -e \"const p=require('./.radio-build/current.json'); process.stdout.write(p.manifestKey)\")" >> "$GITHUB_OUTPUT"
+          node -e 'const m=require("./.radio-build/radio-manifest.json"); console.log("reel="+m.reel.key)' >> "$GITHUB_OUTPUT"
+          node -e 'const p=require("./.radio-build/current.json"); console.log("manifest="+p.manifestKey)' >> "$GITHUB_OUTPUT"
 
       - name: Upload immutable reel
         env:
