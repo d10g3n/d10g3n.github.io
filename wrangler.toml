@@ -1,0 +1,7 @@
+name = "d10g3n-live"
+compatibility_date = "2026-08-11"
+pages_build_output_dir = "out"
+
+[[r2_buckets]]
+binding = "RADIO_BUCKET"
+bucket_name = "d10g3n-radio"

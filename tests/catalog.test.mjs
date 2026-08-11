@@ -12,6 +12,7 @@ import {
 
 const catalog = JSON.parse(await readFile(new URL('../web.json', import.meta.url), 'utf8'));
 const webTracks = catalog.tracks.filter((track) => track.availability?.web !== false);
+const radioTracks = catalog.tracks.filter((track) => track.availability?.radio !== false);
 
 test('every web track has one stable unique canonical slug', () => {
   assert.equal(webTracks.length, 21);
@@ -34,5 +35,17 @@ test('catalog keeps mobile-facing IDs and relative media paths', () => {
     assert.match(track.cover, /^assets\/albums\//);
     assert.match(track.audioFile, /^assets\/audio\/.+\.mp3$/);
     assert.ok(catalog.albums.some((album) => album.id === track.albumId));
+  }
+});
+
+test('radio excludes only the three Uniform without a face versions', () => {
+  assert.deepEqual(
+    catalog.tracks.filter((track) => track.availability?.radio === false).map((track) => track.id).sort(),
+    ['track15', 'track16', 'track17'],
+  );
+  assert.equal(radioTracks.length, catalog.tracks.length - 3);
+  for (const track of radioTracks) {
+    assert.match(track.id, /^track\d+$/);
+    assert.match(track.audioFile, /^assets\/audio\/.+\.mp3$/);
   }
 });

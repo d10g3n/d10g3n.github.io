@@ -1,0 +1,26 @@
+{
+  "stationName": "Diogen Live Radio",
+  "seed": "diogen-live-radio-v1",
+  "epoch": "2026-01-01T00:00:00.000Z",
+  "outputDirectory": ".radio-build",
+  "jingleFile": "radio/jingles/diogen-live-radio.mp3",
+  "jingleProbability": 0.35,
+  "crossfadeSeconds": 6,
+  "jingleCrossfadeSeconds": 1,
+  "copies": 2,
+  "limits": {
+    "maxCycleMinutes": 90,
+    "maxReelBytes": 268435456
+  },
+  "loudness": {
+    "integratedLufs": -16,
+    "truePeakDb": -1.5,
+    "rangeLufs": 11
+  },
+  "encoding": {
+    "codec": "mp3",
+    "bitrateKbps": 128,
+    "sampleRateHz": 48000,
+    "channels": 2
+  }
+}

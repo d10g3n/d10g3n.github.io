@@ -8,7 +8,7 @@ const out = new URL('../out/', import.meta.url);
 const files = [
   'index.html', '404.html', 'web.json', 'version.json', 'manifest.json', 'sw.js',
   'privacy-policy.html', 'copyright.html', 'styles/policy.css', '.well-known/assetlinks.json',
-  '.well-known/apple-app-site-association', 'robots.txt', 'sitemap.xml',
+  '.well-known/apple-app-site-association', '_routes.json', 'robots.txt', 'sitemap.xml',
   ...ALL_STATIC_TRACK_SLUGS.map((slug) => `track/${slug}/index.html`),
 ];
 await Promise.all(files.map((file) => access(new URL(file, out))));

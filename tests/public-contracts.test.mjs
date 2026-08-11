@@ -10,6 +10,7 @@ const required = [
   'public/sw.js',
   'public/privacy-policy.html',
   'public/copyright.html',
+  'public/_routes.json',
   'public/.well-known/assetlinks.json',
   'public/.well-known/apple-app-site-association',
 ];
@@ -31,4 +32,13 @@ test('Cloudflare redirects preserve aliases without an SPA fallback', async () =
   assert.match(redirects, /club-kings .*morozoff-club-kings-d10g3n-remix/);
   assert.match(redirects, /club-kings-bootleg-remix .*morozoff-club-kings-d10g3n-remix/);
   assert.doesNotMatch(redirects, /\/\*\s+\/index\.html/);
+});
+
+test('Cloudflare Pages invokes Functions only for the radio endpoint', async () => {
+  const routes = JSON.parse(await readFile(new URL('public/_routes.json', root), 'utf8'));
+  assert.deepEqual(routes, {
+    version: 1,
+    include: ['/radio.mp3'],
+    exclude: [],
+  });
 });

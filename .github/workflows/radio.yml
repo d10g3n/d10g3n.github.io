@@ -1,0 +1,122 @@
+name: Publish radio reel
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/audio/**"
+      - "web.json"
+      - "radio.config.json"
+      - "radio/jingles/**"
+      - "scripts/build-radio.mjs"
+      - "scripts/prepare-radio-pointer.mjs"
+      - "functions/radio.mp3.ts"
+      - "public/_routes.json"
+      - "wrangler.toml"
+      - "tests/radio.test.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/radio.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: d10g3n-radio-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    environment: radio-production
+    env:
+      RADIO_BUCKET_NAME: d10g3n-radio
+    steps:
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22.18.0
+          cache: npm
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --allow-downgrades \
+            ffmpeg=7:6.1.1-3ubuntu5 \
+            libmp3lame0=3.100-6build1
+          ffmpeg -version | head -1 | grep '6.1.1-3ubuntu5'
+          dpkg-query --show --showformat='${Version}\n' libmp3lame0 | grep '^3.100-6build1$'
+
+      - run: npm ci
+      - run: npm test
+      - run: npm run radio:build
+
+      - name: Resolve immutable object keys
+        id: keys
+        run: |
+          echo "reel=$(node -e \"const m=require('./.radio-build/radio-manifest.json'); process.stdout.write(m.reel.key)\")" >> "$GITHUB_OUTPUT"
+          echo "manifest=$(node -e \"const p=require('./.radio-build/current.json'); process.stdout.write(p.manifestKey)\")" >> "$GITHUB_OUTPUT"
+
+      - name: Upload immutable reel
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: >-
+          ./node_modules/.bin/wrangler r2 object put
+          "$RADIO_BUCKET_NAME/${{ steps.keys.outputs.reel }}"
+          --file .radio-build/radio-reel.mp3
+          --content-type audio/mpeg
+          --remote
+
+      - name: Upload immutable manifest
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: >-
+          ./node_modules/.bin/wrangler r2 object put
+          "$RADIO_BUCKET_NAME/${{ steps.keys.outputs.manifest }}"
+          --file .radio-build/radio-manifest.json
+          --content-type application/json
+          --remote
+
+      - name: Read previous radio pointer
+        id: previous
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        shell: bash
+        run: |
+          set +e
+          ./node_modules/.bin/wrangler r2 object get \
+            "$RADIO_BUCKET_NAME/radio/current.json" \
+            --file .radio-build/previous-current.json \
+            --remote 2> .radio-build/previous-pointer-error.log
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          elif grep -Fq "The specified key does not exist." .radio-build/previous-pointer-error.log; then
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          else
+            cat .radio-build/previous-pointer-error.log >&2
+            exit "$status"
+          fi
+
+      - name: Schedule clock-aligned activation
+        env:
+          RADIO_FIRST_PUBLICATION: ${{ steps.previous.outputs.exists == 'false' }}
+        run: node scripts/prepare-radio-pointer.mjs
+
+      - name: Switch current radio pointer last
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: >-
+          ./node_modules/.bin/wrangler r2 object put
+          "$RADIO_BUCKET_NAME/radio/current.json"
+          --file .radio-build/current.json
+          --content-type application/json
+          --remote

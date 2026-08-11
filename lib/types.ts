@@ -2,6 +2,7 @@ export type Availability = {
   ios?: boolean;
   android?: boolean;
   web?: boolean;
+  radio?: boolean;
 };
 
 export type PlatformLink = {

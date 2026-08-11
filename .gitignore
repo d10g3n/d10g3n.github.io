@@ -22,6 +22,9 @@ node_modules/
 next-env.d.ts
 *.tsbuildinfo
 
+# Generated radio artifacts are uploaded to private R2, never Git or Pages.
+.radio-build/
+
 # Generated public copies; canonical files remain at repository root.
 public/assets/
 public/web.json
