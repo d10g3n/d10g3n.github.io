@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects
+# See: https://developers.cloudflare.com/pages/configuration/redirects/
+
+/index.html / 301
+/track/club-kings /track/morozoff-club-kings-d10g3n-remix/ 301
+/track/club-kings/ /track/morozoff-club-kings-d10g3n-remix/ 301
+/track/club-kings-bootleg-remix /track/morozoff-club-kings-d10g3n-remix/ 301
+/track/club-kings-bootleg-remix/ /track/morozoff-club-kings-d10g3n-remix/ 301

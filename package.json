@@ -1,12 +1,23 @@
 {
   "name": "d10g3n-music",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
   "description": "D10G3N Live - Music streaming platform",
   "scripts": {
-    "generate-pages": "node generate-track-pages.js",
-    "update-jsonld": "node update-jsonld.js",
-    "update-sitemap": "node update-sitemap.js",
-    "build": "node generate-track-pages.js"
+    "predev": "node scripts/sync-public.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-public.mjs",
+    "build": "next build",
+    "postbuild": "npm run test:export",
+    "start": "node scripts/serve-export.mjs",
+    "lint": "tsc --noEmit",
+    "pretest": "node scripts/sync-public.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:export": "node scripts/validate-export.mjs"
   },
   "keywords": [
     "music",
@@ -14,6 +25,16 @@
     "d10g3n"
   ],
   "author": "D10G3N",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
 }
-
