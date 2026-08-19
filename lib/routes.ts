@@ -1,4 +1,5 @@
 export const TRACK_SLUGS = {
+  track22: 'doesnt-matter',
   track21: 'type-it-ship-it',
   track20: 'dimon-dimon',
   track18: 'sdai',

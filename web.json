@@ -58,6 +58,7 @@
       "year": 2026,
       "cover": "assets/albums/singles.png",
       "tracks": [
+        "track22",
         "track21",
         "track20",
         "track18",
@@ -78,6 +79,25 @@
     }
   ],
   "tracks": [
+    {
+      "id": "track22",
+      "title": "Doesn't matter",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "en",
+      "albumId": "album0",
+      "cover": "assets/albums/ywh.jpg",
+      "audioFile": "assets/audio/D10G3N - Doesn't matter.mp3",
+      "lyrics": "Hey, take it easy, don't you worry, friend,\nIf the signal drops and I don't reconnect again,\nDon't come looking, save yourself the miles,\nSome quiet sadness caught me somewhere in the files.\n\nHey, listen closer, brother, don't you cry,\nJust be glad to find me under open sky,\nSmile a little if the road called out my name,\nSay the story simply reached the end of frame.\n\nCause I'm lying here so painfully divine,\nShame I'll never make it to the booth in time,\nEverything else stopped mattering, honestly,\nSo whatever — just forget me.\n\nYo whatever... Hey...\nI've step over the edge - you'd stay.\nYo whatever... Hey...\nRight here on my mound now, dance.\n\nDoesn't matter anyway,\ncause from now I'm out, I'm not around,\nDoesn't matter,\ndance right here on this mound.\nDoesn't matter anyway,\ncause I won't be standing on your way,\nDoesn't matter,\nYou're staying here - I've gone away.\n\nMotor skills will be the first to fade,\nThen the voice goes quiet, every word unsaid,\nHeartbeat thinning out to one last thread,\nLet the crows have what the story left instead.\n\nNeighbors whisper \"always was a little strange,\"\nSay it's what I earned, and nothing's changed,\nSkip the marble, skip the fancy shrine,\nJust an old barrel roof will do just fine.\n\nCause I'm lying here so painfully divine,\nShame I'll never make it to the booth in time,\nEverything else stopped mattering, honestly,\nSo whatever — just forget me.\n\nNo backup, no restore, don't refresh the page,\nOnce the light goes out, there's no next stage,\nWent looking with a lantern in the noon,\nNever found one honest soul, so what — too soon?\n\nCalled a dog by everyone who passed me on the street,\nGuess a dog don't mind an unmarked place to sleep.\n\nYo whatever... Hey...\nI've step over the edge - you'd stay.\nYo whatever... Hey...\nRight here on my mound now, dance.\n\nDoesn't matter anyway,\ncause from now I'm out, I'm not around,\nDoesn't matter,\ndance right here on this mound.\nDoesn't matter anyway,\ncause I won't be standing on your way,\nDoesn't matter,\nYou're staying here - I've gone away.\n\n© D10G3N Records | 19.08.2026",
+      "youtubeId": "",
+      "isrc": "",
+      "links": [],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
     {
       "id": "track21",
       "title": "Type it, ship it",
