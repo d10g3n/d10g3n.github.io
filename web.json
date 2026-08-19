@@ -58,6 +58,7 @@
       "year": 2026,
       "cover": "assets/albums/singles.png",
       "tracks": [
+        "track23",
         "track22",
         "track21",
         "track20",
@@ -79,6 +80,25 @@
     }
   ],
   "tracks": [
+    {
+      "id": "track23",
+      "title": "Live",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "en",
+      "albumId": "album0",
+      "cover": "assets/albums/live.jpeg",
+      "audioFile": "assets/audio/D10G3N - Live.mp3",
+      "lyrics": "Lights low\nFeel the glow\nMusic takes control\nDeep inside your soul\nGlow\nGlow\n\nHear the sound\nAll around\nFeel the ground\nSpin around\n\nDiogen Live\nDiogen Live\nRadio station\nThat keeps all alive\nDiogen Live\nAre you ready?\nWe thrive\nThrive\n\nBeat drops\nNever stops\nBody pops\nTo the top\nNever stops\n\nHear the sound\nAll around\nFeel the ground\nSpin around\n\nDiogen Live\nDiogen Live\nRadio station\nThat keeps all alive\nDiogen Live\nAre you ready?\nWe thrive\nThrive\n\n© D10G3N Records | 20.08.2026",
+      "youtubeId": "",
+      "isrc": "",
+      "links": [],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
     {
       "id": "track22",
       "title": "Doesn't matter",
