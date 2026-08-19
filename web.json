@@ -58,6 +58,7 @@
       "year": 2026,
       "cover": "assets/albums/singles.png",
       "tracks": [
+        "track24",
         "track23",
         "track22",
         "track21",
@@ -80,6 +81,25 @@
     }
   ],
   "tracks": [
+    {
+      "id": "track24",
+      "title": "Mismatched",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "en",
+      "albumId": "album0",
+      "cover": "assets/albums/mismatched.jpg",
+      "audioFile": "assets/audio/D10G3N - Mismatched.mp3",
+      "lyrics": "I can just hear the silent noise\nI was inspired by your voice\nThe magic dreams give any choice\nWill last until wake up disclose\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\nHey dreamer\nI hear what you said\nYou won’t believe what’s going next\nWatch your dream until the end\n\nI coming down to see the ocean\nMismatched visuals in motion\nPrevents from picking right emotion\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\n© D10G3N Records | 20.08.2026",
+      "youtubeId": "",
+      "isrc": "",
+      "links": [],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
     {
       "id": "track23",
       "title": "Live",

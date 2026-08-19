@@ -15,7 +15,7 @@ const webTracks = catalog.tracks.filter((track) => track.availability?.web !== f
 const radioTracks = catalog.tracks.filter((track) => track.availability?.radio !== false);
 
 test('every web track has one stable unique canonical slug', () => {
-  assert.equal(webTracks.length, 23);
+  assert.equal(webTracks.length, 24);
   assert.deepEqual(new Set(webTracks.map((track) => track.id)), new Set(Object.keys(TRACK_SLUGS)));
   assert.equal(new Set(CANONICAL_TRACK_SLUGS).size, webTracks.length);
 });
@@ -26,7 +26,7 @@ test('published Club Kings aliases resolve to the canonical track', () => {
     assert.equal(trackIdForSlug(alias), 'track19');
     assert.equal(canonicalSlugFor(alias), 'morozoff-club-kings-d10g3n-remix');
   }
-  assert.equal(ALL_STATIC_TRACK_SLUGS.length, 25);
+  assert.equal(ALL_STATIC_TRACK_SLUGS.length, 26);
 });
 
 test('catalog keeps mobile-facing IDs and relative media paths', () => {
