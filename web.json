@@ -58,6 +58,7 @@
       "year": 2026,
       "cover": "assets/albums/singles.png",
       "tracks": [
+        "track25",
         "track24",
         "track23",
         "track22",
@@ -82,6 +83,25 @@
   ],
   "tracks": [
     {
+      "id": "track25",
+      "title": "It's still alright",
+      "artist": "D10G3N",
+      "year": 2026,
+      "language": "en",
+      "albumId": "album0",
+      "cover": "assets/albums/isa.jpg",
+      "audioFile": "assets/audio/D10G3N - It's still alright.mp3",
+      "lyrics": "When we are holding phones\nWatching nonsense online\nSmoking new cigarette\nOr drinking some wine\nDoes it feel in the end\nThat we are satisfied\nOr it's just our way\nTo feel less empty inside?\n\nIt's still alright\nIt's still alright\nIt's still alright\n\nFor us to choose, for us to dream\nWas ever something in between?\nI take a look at futures' past\nBut nothing there for me to grasp\n\nIt's still alright\nIt's still alright\nIt's still alright\n\nWhen I can breathe and feel heartbeat\nBut mind is shattered without peace\nWith tired body during sleepless nights\n\nIt's still alright\nIt's still alright\nIt's still alright\n\nWhen I'm screaming from deep inside\nIt's still alright, it's still alright\nWhen i can feel that it's my time\nIt's still alright, it's still alright\n\nEven when i say goodbye\nIt's still alright\nIt's still alright\n\nOh-oh, It's still alright\nIt's still alright\n\nIt's still...\nOh-oh, It's still...\nOh-oh\n\n© Andrew Sukhovolskij (Lyrics), D10G3N (Artist/Composer) | 21.08.2026",
+      "youtubeId": "",
+      "isrc": "",
+      "links": [],
+      "availability": {
+        "ios": true,
+        "android": true,
+        "web": true
+      }
+    },
+    {
       "id": "track24",
       "title": "Mismatched",
       "artist": "D10G3N",
@@ -90,7 +110,7 @@
       "albumId": "album0",
       "cover": "assets/albums/mismatched.jpg",
       "audioFile": "assets/audio/D10G3N - Mismatched.mp3",
-      "lyrics": "I can just hear the silent noise\nI was inspired by your voice\nThe magic dreams give any choice\nWill last until wake up disclose\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\nHey dreamer\nI hear what you said\nYou won’t believe what’s going next\nWatch your dream until the end\n\nI coming down to see the ocean\nMismatched visuals in motion\nPrevents from picking right emotion\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\n© D10G3N Records | 20.08.2026",
+      "lyrics": "I can just hear the silent noise\nI was inspired by your voice\nThe magic dreams give any choice\nWill last until wake up disclose\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\nHey dreamer\nI hear what you said\nYou won’t believe what’s at the end\n\nI coming down to see the ocean\nMismatched visuals in motion\nPrevents from picking right emotion\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\nMismatched\nDon’t listen to me\nI carry last mind pieces\nDon’t get what I feel\nMismatched\nYou know what I mean\nEven everyone stops mismatch\nNo-one will be free\n\n© D10G3N Records | 20.08.2026",
       "youtubeId": "",
       "isrc": "",
       "links": [],

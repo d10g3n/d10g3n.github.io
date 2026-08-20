@@ -1,4 +1,5 @@
 export const TRACK_SLUGS = {
+  track25: 'its-still-alright',
   track24: 'mismatched',
   track23: 'live',
   track22: 'doesnt-matter',
